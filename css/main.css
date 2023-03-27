@@ -186,7 +186,8 @@ header {
 .tool-color-title,
 .tool-size-title,
 .tool-delivery-title,
-.tool-promotion-title {
+.tool-promotion-title,
+.tool-quantity-title {
     font-weight: bold;
     padding: 5px 0px;
 }
@@ -249,7 +250,9 @@ header {
 }
 
 .container-tool-delivery,
-.container-tool-promotion {
+.container-tool-promotion,
+.container-tool-quantity,
+.container-submit {
     margin: 20px;
 }
 
@@ -258,6 +261,68 @@ header {
     background-color: #ececec;
     padding: 10px;
     border: none;
+}
+
+.tool-promotion-content {
+    margin-top: 10px;
+}
+
+.tool-promotion-content span {
+    background-color: #ececec;
+    color: rgb(0, 122, 102);
+    padding: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+.tool-quantity-content input {
+    width: 40px;
+    height: 40px;
+    border: none;
+    background-color: #ececec;
+}
+
+.tool-quantity-content input[type=submit] {
+    cursor: pointer;
+}
+
+.tool-quantity-content input[type=text] {
+    align-items: center;
+}
+
+.container-submit {
+    display: flex;
+}
+
+.container-submit button {
+    padding: 10px;
+    margin-right: 20px;
+    border: none;
+    cursor: pointer;
+    line-height: auto;
+    border-radius: 10px;
+    width: 230px;
+    background-color: rgb(0, 122, 102);
+    color: white;
+}
+
+.container-submit {
+    margin-top: 30px;
+}
+
+.container-image-content {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.container-submit button:first-child {
+    background-color: white;
+    border: 1px solid rgb(0, 122, 102);
+    color: rgb(0, 122, 102);
 }
 
 
